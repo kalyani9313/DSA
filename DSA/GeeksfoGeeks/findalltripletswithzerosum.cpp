@@ -4,8 +4,6 @@ class Solution {
         // Code here
          vector<vector<int>> res; 
     int n = arr.size(); 
-
-    // Generating all triplets
     for (int i = 0; i < n - 2; i++) {
         for (int j = i + 1; j < n - 1; j++) {
             for (int k = j + 1; k < n; k++) {
